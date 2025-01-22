@@ -1,1 +1,69 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
 output.yaml
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.lock
+
+# Ignore compiled code and build directories
+/dist/
+/build/
+/out/
+/node_modules/
+/target/
+/bin/
+/obj/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore dependency directories
+/vendor/           # For PHP projects
+/pods/             # For iOS projects
+/.mvn/             # For Maven projects
+
+# Ignore environment and configuration files
+.env
+.env.local
+.env.*.local
+*.config.js
+config.json
+
+# Ignore Python artifacts
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore Java artifacts
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore Go build files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore macOS Finder files
+.DS_Store
+
+# Ignore npm debug files
+npm-debug.log*
+
+# Ignore JetBrains project files
+*.idea/
+
+# Ignore specific file patterns
+*.bak
+*.tmp
